@@ -9,6 +9,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div id='signal'>
+      {/* navbar */}
       <Navbar expand="xxl" className="container-fluid" id='signal-navbar' > 
         <Navbar.Brand href="#home" className='brand'> 
           <img src={Logo} width="150" height="50" alt="Logo" className='logo'/> 
