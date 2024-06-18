@@ -119,12 +119,13 @@ section{
 @media (min-width: 1024px) {
     .hero-main .mobile-img .img1 {
         margin-left: 0;
-        margin-top: 53px;
+        margin-top: 10px;
         width: 320px;
     }
 
     .hero-main .mobile-img .img2 {
-        margin-left: -32px;
+        margin-left: -29px;
+        margin-top: -50px;
         position: absolute;
         top: 0;
         width: 300px;
@@ -213,6 +214,7 @@ section{
         width: 700px;
     }
     .uses h2{
+        margin-top: 30px;
         font-size: 30px;
         font-weight: 800;
         line-height: 44px;
@@ -280,6 +282,7 @@ section{
         padding: 0;
     }
     .share .left{
+        margin-top: -50px;
         width: 100%;
         margin-left: 0;
         padding: 10px;
@@ -355,6 +358,10 @@ section{
 @media screen and (max-width: 768px) {
     .features .container {
         grid-template-columns: 1fr;
+    }
+    .box p{
+        margin-left: 20px;
+        text-align: center;
     }
 }
 

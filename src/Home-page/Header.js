@@ -5,6 +5,8 @@ import twitter from '../assets/twitter.svg';
 import instagram from '../assets/instagram.svg';
 import world from '../assets/world.svg';
 import './Header.css';
+import { Link } from 'react-router-dom';
+import getSignal from './getSignal';
 
 const Header = () => {
   return (

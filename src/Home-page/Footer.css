@@ -55,6 +55,7 @@ strong {
     display: block;
     font-weight: 600;
     margin-bottom: 15px;
+    text-align: center;
 }
 li{
     list-style-type: none;
@@ -78,6 +79,11 @@ span , p ,li{
     color: #E9E9E9;
     cursor: pointer;
 }
+.social a{
+    text-decoration: none;
+    color: #E9E9E9;
+    cursor: pointer;
+}
 .copy a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1.2px;
@@ -88,4 +94,47 @@ li:hover{
     text-decoration-thickness: 1.2px;
     text-decoration-color: #E9E9E9;
 }
+@media screen and (max-width: 768px) {
+    footer {
+        margin-top: 450px;
+    }
+
+    .contain {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .copy {
+        width: 100%;
+        order: 2; /* Move .copy to the bottom */
+        margin-top: 220px;
+        margin-left: -600px;
+        text-align: center;
+    }
+
+    .organisation {
+        width: 40%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        order: 1; 
+        margin-left: -70px;
+    }
+    .help, .download, .social {
+        width: 25%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        order: 1; 
+        margin-left: -10px;
+    }
+    .copy span,p{
+        margin-left: -40px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
   

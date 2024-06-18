@@ -30,9 +30,9 @@ const Footer = () => {
           </div>
           <div className='social'>
             <strong>Social</strong>
-            <li>GitHub</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
+            <li><a href='https://github.com/'>GitHub</a></li>
+            <li><a href='https://x.com/?lang=en'>Twitter</a></li>
+            <li><a href='https://www.instagram.com/'>Instagram</a></li>
           </div>
           <div className='help'>
             <strong>Help</strong>
