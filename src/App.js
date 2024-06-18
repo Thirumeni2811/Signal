@@ -1,6 +1,5 @@
-
 import './App.css';
-import Home from './components/Home';
+import Home from './Home-page/Home';
 
 function App() {
   return (

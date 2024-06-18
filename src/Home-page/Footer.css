@@ -1,0 +1,91 @@
+*,::after,::before{
+    box-sizing: inherit;
+}
+footer {
+    padding: 3rem 1.5rem 4.5rem;
+    background-color: #3C3744;
+    color: #E9E9E9;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contain {
+    display: flex;
+    margin: 0px 63px;
+    width: 90%;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 12px;
+}
+
+.organisation {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 12px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 12px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 12px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 12px;
+}
+
+strong {
+    color: #E9E9E9;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.organisation li{
+    margin-left: -30px;
+}
+.dsgn{
+    margin: -.75rem;
+    display: flex;
+}
+span , p ,li{
+    font-size: 17.5px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: 0;
+}
+.copy a{
+    text-decoration: none;
+    color: #E9E9E9;
+    cursor: pointer;
+}
+.copy a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+  
