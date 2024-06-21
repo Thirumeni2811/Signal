@@ -1,0 +1,194 @@
+*,::after,::before{
+    box-sizing: inherit;
+}
+section {
+    padding: 3rem 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.develop{
+    background-color: #f6f6f6;
+}
+.develop .containers{
+    margin: 0px 87px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49vh;
+    gap: 10px;
+}
+.leftText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: -30px;
+    padding-right: 3px;
+    height: 70%;
+    margin-top: 120px;
+}
+.rightImg{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 70%;
+    padding-left: 10px;
+    margin-top: -188px;
+}
+.leftText h1{
+    margin-bottom: 24px;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 64px;
+}
+.leftText p{
+    font-size: 25px;
+    line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+    .containers {
+        flex-direction: column;
+        height: auto; 
+        margin: 0px; 
+    }
+    .develop{
+        margin-top: -60px;
+    }
+    .develop .containers{
+        height: 65vh;
+        margin: 35px;
+    }
+    .leftText h1{
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+    .leftText p{
+        font-size: 17px;
+        line-height: 20px;
+        margin-left: 0px;
+    }
+    .leftText,
+    .rightImg{
+        width: 100%;
+        height: auto; 
+        padding: 12px; 
+        margin-top: 0; 
+    }
+
+    .rightImg {
+        padding-left: 0;
+        width: 700px;
+        margin-top: -40px;
+    }
+}
+
+/* Specification */
+.specContainer{
+    margin: 0px 63px;
+}
+.specContainer h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 32px;
+}
+.specContainer p{
+    font-size: 21px;
+    line-height: 25px;
+}
+.Spec{
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.specContainer2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 0 63px;
+    padding: 0;
+}
+
+.box a{
+    font-weight: 600;
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box p{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .specContainer2 {
+        grid-template-columns: 1fr; 
+    }
+
+    .specContainer2 .box {
+        width: 100%; 
+        text-align: left;
+    }
+    .specContainer , .specContainer2{
+        margin: 0px 35px;
+    }
+    .Spec{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .specContainer h2{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 44px;
+        margin-bottom: 22px;
+    }
+    .specContainer p{
+        font-size: 17px;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 0px;
+    }
+}
+
+/* Foot */
+.swLib{
+    margin: 0px 63px;
+}
+.swLib h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.box a,.swLib a{
+    font-weight: 600;
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .swLib {
+        margin: 0 35px;
+        padding-bottom: 0;
+        height: auto;
+    }
+    .swLib h2 {
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .swLib a {
+        font-weight: 600;
+        color: #3273dc;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .lib{
+        margin-bottom: -450px;
+    }
+}
+

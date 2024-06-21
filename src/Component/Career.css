@@ -1,0 +1,223 @@
+*,::after,::before{
+    box-sizing: inherit;
+}
+.career{
+    background-color: #e7dfe0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.contains{
+    margin: 0px 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 12px;
+    height: 70%;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 70%;
+    padding-left: 10px;
+    margin-top: -100px;
+}
+.leftSide h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.leftSide p{
+    font-size: 20px;
+    line-height: 30px;
+}
+@media (max-width: 768px) {
+    .contains {
+        flex-direction: column;
+        height: auto; 
+        margin: 0; 
+    }
+    .leftSide h1{
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    .leftSide p{
+        font-size: 17px;
+        line-height: 20px;
+        margin-left: 0px;
+    }
+
+    .leftSide,
+    .rightSide {
+        width: 100%;
+        height: auto; 
+        padding: 12px; 
+        margin-top: 0; 
+    }
+
+    .rightSide {
+        padding-left: 0;
+    }
+}
+
+/* Grid Box */
+
+.grid-make {
+    margin-top: 30px;
+    padding: 3rem 1.5rem;
+}
+.grid-make .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 70px;
+    padding: 0;
+    margin: 0px 63px;
+}
+.grid-make .box {
+    display: block;
+    padding: 1.25rem;
+    text-align: left;
+    margin: -.75rem -.75rem 0rem -.75rem;
+    width: 456px;
+    height: 222px;
+}
+
+@media (min-width: 768px) {
+    .grid-make img {
+        width: 40px;
+        height: 40px;
+    }
+}
+.grid-make h3 {
+    color: #1b1b1b;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+.grid-make p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+@media screen and (max-width: 768px) {
+    .grid-make img {
+        width: 40px;
+        height: 40px;
+        margin-left: 130px;
+    }
+    .grid-make .container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        width: 100%;
+    }
+    .grid-make .box {
+        display: block;
+        padding: 1.25rem;
+        text-align: left;
+        width: 360px;
+        height: 250px;
+    }
+    .box h3{
+        text-align: center;
+        font-size: 21px;
+    }
+    .box p{
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
+/* Open Role */
+
+.openRole{
+    padding: 3rem 1.5rem;
+}
+.job-container{
+    margin: 40px 63px 0 63px;
+}
+.jobRole-container{
+    margin: 0 63px 24px 63px;
+}
+.job-container h2 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    text-align: center;
+}
+td{
+    padding: 8px 12px;
+}
+td strong {
+    color: black;
+    margin-bottom: 0;
+    display: block;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+}
+.openRole a{
+    text-decoration: none;
+}
+.content-container{
+    margin: 0px 63px;
+}
+.openRole p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+table{
+    width: 1344px;
+    height: 121px;
+}
+table tbody tr:not(.is-selected):nth-child(even) {
+    border-top: 1px solid rgb(227, 227, 227);
+    border-bottom: 1px solid rgb(227, 227, 227);
+    background-color: #f7f6f6;
+}
+@media screen and (max-width: 768px) {
+    .job-container, .jobRole-container, .content-container {
+        margin: 10px 15px;
+    }
+
+    .job-container h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .openRole {
+        padding: 1rem 1rem;
+        margin-bottom: -150px;
+    }
+    table{
+        width: 700px;
+        height: 121px;
+    }
+    td {
+        padding: 12px;
+    }
+
+    td strong {
+        margin-left: 10px;
+    }
+
+    .openRole p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 30px;
+        margin-bottom: -590px;
+    }
+}

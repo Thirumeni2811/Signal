@@ -1,0 +1,122 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+  }
+  
+  .blogContent{
+    padding: 3rem 1.5rem;
+    background-color: #f7f7f7;
+    max-height: fit-content;
+  }
+  .blogContent .contain{
+    margin: 0px 63px;
+    padding: 0px;
+    max-height: fit-content;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+.blogInfo img{
+    width: 566px;
+    height: 290px;
+    margin: 30px 0px;
+}
+.blog {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.prof , .blogInfo{
+    margin: 0px 147px;
+}
+.prof img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+}
+.blogContent h3{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.blogContent{
+    text-align: center;
+}
+.blogContent a {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+.blogInfo p{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 2px;
+
+}
+ .blogContent .columns{
+    justify-content: center;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.columnBlog{
+    flex: none;
+    width: 912px;
+    height: 950px;
+    padding: .75rem;
+    margin-top: -40px;
+}
+.feet{
+    text-align: left;
+}
+.feet a {
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: -20px;
+}
+@media screen and (max-width: 768px){
+    .blogContent .contain {
+      margin: 0 13px;
+      width: 680px;
+    }
+  
+    .prof, .blogInfo {
+      margin: 0 47px;
+    }
+    .blogInfo img{
+        width: 520px;
+    }
+
+    .columnBlog {
+      width: 680px;
+      height: auto;
+    }
+    .blogContent .columnBlog{
+        margin-left: 0;
+    }
+    .blogContent{
+        margin-bottom: -460px;
+    }
+  }
+
+  
+    
