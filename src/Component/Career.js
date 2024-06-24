@@ -11,7 +11,7 @@ const Career = () => {
   return (
     <>
     {/* Head */}
-      <section className='career'>
+      <section className='career' id='career'>
           <div className='contains'>
               <div className='leftSide'>
                   <h1>Work that sends a message</h1>
@@ -73,7 +73,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href="#">View Role</a>
+                <a href="#career">View Role</a>
               </td>
             </tr>
             <tr className='tableSecond'>
@@ -82,7 +82,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href="#">View Role</a>
+                <a href="#career">View Role</a>
               </td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href="#">View Role</a>
+                <a href="#career">View Role</a>
               </td>
             </tr>
           </tbody>

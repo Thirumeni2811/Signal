@@ -20,6 +20,7 @@
 
 .brand{
     margin-left: 75px;
+    cursor: pointer;
 }
 
 .navbar-expand-xxl .navbar-collapse {

@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 const Donate = () => {
   return (
     <>
-        <section className='donate'>
+        <section className='donate' id='donate'>
             <div className='donateContainer'>
                 <div className='donateTop'>
                     <h1>Donate to Signal</h1>
@@ -120,7 +120,7 @@ const Donate = () => {
                 </div>    
             </div>  
             <div className='donarFoot'>
-                <p><a href="#">Donor FAQs </a>| <a href='#'>Donar Privacy Policy</a></p>
+                <p><a href="#donate">Donor FAQs </a>| <a href="#donate">Donar Privacy Policy</a></p>
             </div>     
         </section>
     </>

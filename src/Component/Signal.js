@@ -5,7 +5,7 @@ import Desktop from '../assets/Desktop.png'
 
 const Signal = () => {
   return (
-    <section className='sig'>
+    <section className='sig' id='signal'>
         <div className='contain'>
             <div className='mobile'>
                 <div className='topic'>
@@ -40,8 +40,8 @@ const Signal = () => {
                   <p>To use the Signal desktop app, Signal must first be installed on your phone.</p>
                   <h3>Not on Windows ?</h3>
                   <ul>
-                    <li><a href="#">Signal for Mac</a></li>
-                    <li><a href="#" className='linux'>Signal for Linux - Debian - based distros</a></li>
+                    <li><a href="#signal">Signal for Mac</a></li>
+                    <li><a href="#signal" className='linux'>Signal for Linux - Debian - based distros</a></li>
                   </ul>
                 </div>
             </div>
