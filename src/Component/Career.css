@@ -86,8 +86,8 @@
     padding: 1.25rem;
     text-align: left;
     margin: -.75rem -.75rem 0rem -.75rem;
-    width: 456px;
-    height: 222px;
+    max-width: auto;
+    height: auto;
 }
 
 @media (min-width: 768px) {
