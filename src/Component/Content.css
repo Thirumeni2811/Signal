@@ -219,7 +219,7 @@ section{
 }
 @media screen and (max-width: 768px){
     .uses .column{
-        width: 720px;
+        width: 600px;
         text-align: center;
         margin-left: -30px;
     }
