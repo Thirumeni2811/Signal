@@ -167,6 +167,9 @@ section{
         margin-top: -590px;
         margin-left: 320px;
     }
+    .hero-body{
+        margin-left: 30px;
+    }
     .column h1{
         margin-left: -40px;
         font-size: 40px;
@@ -216,8 +219,9 @@ section{
 }
 @media screen and (max-width: 768px){
     .uses .column{
-        margin: 50px 0 0 -80px;
-        width: 700px;
+        width: 600px;
+        text-align: center;
+        margin-left: -30px;
     }
     .uses h2{
         margin-top: 30px;
