@@ -97,7 +97,8 @@ a:hover{
         margin-bottom: -450px;
     }
     .contain {
-        flex-direction: row; 
+        display: flex;
+        flex-direction: column; 
     }
     .contain h2{
         margin-top: -10px;
