@@ -15,6 +15,7 @@
 
 .navbar-nav .nav-link:hover {
     color: var(--bs-nav-link-hover-color); 
+    text-decoration: none;
 }
 
 .brand{
@@ -42,5 +43,6 @@
 .eng{
     margin-left: 5px;
 }
+
 
 

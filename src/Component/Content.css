@@ -105,6 +105,9 @@ section{
     font-weight: 600;
     text-decoration: none;
 }
+.button:hover{
+    text-decoration: none;
+}
 
 .hero-main .mobile-img {
     position: relative;

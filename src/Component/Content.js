@@ -21,7 +21,7 @@ const HeroSection = () => (
               Say "hello" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect.
             </p>
             <p>
-              <a className="get-signal button button-white" href="/download/"> Get Signal </a>
+              <a className="get-signal button button-white" href="/get/"> Get Signal </a>
             </p>
           </div>
           <div className="column mobile-img">

@@ -84,12 +84,47 @@ li{
     color: #E9E9E9;
     cursor: pointer;
 }
+.organisation a{
+    text-decoration: none;
+    color: #E9E9E9;
+    cursor: pointer;
+}
+.download a{
+    text-decoration: none;
+    color: #E9E9E9;
+    cursor: pointer;
+}
+.help a{
+    text-decoration: none;
+    color: #E9E9E9;
+    cursor: pointer;
+}
 .copy a:hover {
     text-decoration: underline;
     text-decoration-thickness: 1.2px;
     text-decoration-color: #E9E9E9;
 }
 li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+.social a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+.organisation a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+.help a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-decoration-color: #E9E9E9;
+}
+.download a:hover{
     text-decoration: underline;
     text-decoration-thickness: 1.2px;
     text-decoration-color: #E9E9E9;

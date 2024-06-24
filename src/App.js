@@ -5,6 +5,8 @@ import GetSignal from './Component/getSignal';
 import CareerWork from './Component/careerWork';
 import Developers from './Component/Developers';
 import Blog from './Component/blogContent';
+import Help from './Component/helpSupport';
+import Donate from './Component/donateSignal';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
           <Route path='/get' element={<GetSignal />} />
           <Route path='/career' element={<CareerWork />} />
           <Route path='/developer' element={<Developers />} />
-          <Route path='/blog' element={<Blog />} />         
+          <Route path='/blog' element={<Blog />} /> 
+          <Route path='help' element={<Help />} /> 
+          <Route path='donate' element={<Donate />}/>       
          </Routes>
       </BrowserRouter>
     </div>

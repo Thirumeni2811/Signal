@@ -1,0 +1,310 @@
+*,::after,::before {
+    box-sizing: inherit;
+}
+*{
+    font-family: Inter, sans-serif;
+}
+
+.donate{   
+    padding: 3rem 1.5rem;
+}
+.donateTop{
+    text-align: center;
+}
+.donateTop h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.donateTop a{
+    text-decoration: none;
+}
+.donateContainer{
+    margin: 0px 70px;
+    height: 720px;
+    border-bottom: 3px solid rgb(239, 239, 239);
+}
+.moneyEntry {
+    height: 550px;
+    overflow-y: auto; 
+    box-sizing: border-box; 
+  }
+  
+.Container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+}
+.donateMoney{
+    width: 25%;
+    color: #57585a;
+}
+.donateFor{
+    width: 55%;
+    margin-left: 113px;
+    padding: 0px 10px;
+}
+.donateFor p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 630px;
+}
+.entryTop{
+    background-color: #2c6bed;
+    padding: 20px ;
+    text-align: right;
+    color: white;
+}
+.period{
+    margin: 30px 53px;
+}
+.oneTime{
+    padding: 10px;
+    background-color: #2c6bed;
+    color: white;
+    border:1px solid #2c6bed;
+    border-radius: 4px 0px 0px 4px;
+}
+.monthly{
+    padding: 10px;
+    color: #2c6bed;
+    background-color: white;
+    border:1px solid #2c6bed;
+    border-radius: 0px 4px 4px 0px;
+}
+.selCountry{
+    padding: 0px 20px;
+}
+.selCountry option{
+    width: 10px;
+}
+ .moneyGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+ }
+ .moneyGrid h3{
+    padding: 15px;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+ }
+ .customAmt{
+    padding: 0px 20px;
+ }
+ .customAmt h3{
+    padding: 15px;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+ }
+ .commentt{
+    padding: 0px 20px;
+ }
+ 
+ #customCheckbox{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+ }
+ .textArea input{
+    border: none;
+    border-bottom: 2px solid rgb(239, 239, 239);
+    width: 255px;
+ }
+ .nextButton{
+    padding: 20px 20px;
+    margin-top: 20px;
+ }
+ .nextButton h4{
+    padding: 10px 20px;
+    background-color: #2559c0;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+ }
+ .powered {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+ }
+ .align{
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 0px 0px 8px 8px;
+ }
+ 
+ .donateFor h5{
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ .otherContainer{
+    margin: 0px 70px;
+    height: 620px;
+}
+.signalTop{
+    background-color: #170336;
+    padding: 15px ;
+    text-align: right;
+    color: white;
+    display: flex;
+    border-radius: 8px 8px 0px 0px;
+}
+.signalTop img{
+    width: 60px;
+    border-radius: 8px;
+}
+.signalTop h5{
+    font-weight: 600;
+    text-align: left;
+    line-height: 24px;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+.method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    padding: 90px 0px;
+    
+}
+
+
+.signalFound{
+    width: 25%;
+    color: #57585a;
+}
+.method h5 {
+    font-weight: 600;
+}
+
+.methodGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 100%;
+    justify-items: center;
+}
+
+.crypto {
+    padding: 12px;
+    border-radius: 16px;
+    color: black;
+    background-color: #f7d00f;
+    grid-column: span 2;
+    text-align: center;
+    width: 240px;
+}
+
+.cardd {
+    padding: 12px;
+    border-radius: 16px;
+    color: black;
+    background-color: #d1dbe3;
+    text-align: center;
+    width: 117px;
+    margin-left: 28px;
+}
+.stock {
+    padding: 12px;
+    border-radius: 16px;
+    color: black;
+    background-color: #d1dbe3;
+    text-align: center;
+    width: 117px;
+    margin-right: 28px;
+}
+.daf {
+    padding: 12px;
+    border-radius: 16px;
+    color: black;
+    background-color: #d1dbe3;
+    grid-column: span 2;
+    text-align: center;
+    width: 240px;
+}
+.sponsor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d1dbe3;
+    padding: 10px;
+    border-top: 1px solid rgb(199, 196, 196);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.sponsor a {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    text-decoration: none;
+}
+
+.sponsor img {
+    width: 60px;
+}
+
+.sponsor p {
+    font-size: 12px;
+    color: black;
+    margin: 0; 
+}
+.donarFoot{
+    text-align: center;
+}
+.donarFoot a{
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .donateContainer {
+        margin: 0px 20px;
+        height: auto;
+    }
+    .donate{
+        margin-bottom: -450px;
+    }
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .donateMoney{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 85px;
+    }
+    .donateFor{
+        margin-top: 30px;
+        margin-left: 0px;
+        padding: 20px;
+        text-align: left;
+        width: 550px;
+        box-sizing: inherit;
+    }
+    .donateFor p{
+        font-size: 16px;
+        width: 500px;
+        margin-left: 10px;
+    }
+    .otherContainer{
+        margin: 0px 20px;
+        height: auto;
+    }
+    .signalFound{
+        width: 300px;
+        margin-left: 130px;
+    }
+    .donateFor h5{
+        text-align: center;
+    }
+    .donarFoot{
+        text-align: center;
+    }
+}
+

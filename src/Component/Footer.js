@@ -13,20 +13,22 @@ const Footer = () => {
           <div className='organisation'>
             <strong>Organisation</strong>
             <ul>
-              <li>Donate</li>
-              <li>Careers</li>
-              <li>Blog</li>
+              <li><a href='/donate'>Donate</a></li>
+              <li><a href='career'>Careers</a></li>
+              <li><a href='blog'>Blog</a></li>
               <li>Brand Asstes</li>
               <li>Terms & Privacy Policy</li>
             </ul>
           </div>
           <div className='download'>
             <strong>Download</strong>
-            <li>Android</li>
-            <li>iPhone & iPad</li>
-            <li>Windows</li>
-            <li>Mac</li>
-            <li>Linux</li>
+            <a href='/get'>
+              <li>Android</li>
+              <li>iPhone & iPad</li>
+              <li>Windows</li>
+              <li>Mac</li>
+              <li>Linux</li>
+            </a>
           </div>
           <div className='social'>
             <strong>Social</strong>
@@ -36,8 +38,8 @@ const Footer = () => {
           </div>
           <div className='help'>
             <strong>Help</strong>
-            <li>Support Center</li>
-            <li>Community</li>
+            <li><a href="/help">Support Center</a></li>
+            <li><a href='https://community.signalusers.org/'>Community</a></li>
           </div>
         </div>
       </div>
