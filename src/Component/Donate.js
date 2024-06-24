@@ -120,7 +120,7 @@ const Donate = () => {
                 </div>    
             </div>  
             <div className='donarFoot'>
-                <p><a href='#'>Donor FAQs </a>| <a href='#'>Donar Privacy Policy</a></p>
+                <p><a href="#">Donor FAQs </a>| <a href='#'>Donar Privacy Policy</a></p>
             </div>     
         </section>
     </>

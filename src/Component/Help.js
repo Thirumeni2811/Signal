@@ -49,7 +49,7 @@ const Help = () => {
 
         <section className='helpFooter'>
             <div className='footerContent'>
-                <p>Signal is committed to your privacy. Signal runs on donations as a nonprofit. <a href='#'>Donate here!</a></p>
+                <p>Signal is committed to your privacy. Signal runs on donations as a nonprofit. <a href="#">Donate here!</a></p>
             </div>
         </section>
     </>

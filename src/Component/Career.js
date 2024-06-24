@@ -73,7 +73,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href='#'>View Role</a>
+                <a href="#">View Role</a>
               </td>
             </tr>
             <tr className='tableSecond'>
@@ -82,7 +82,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href='#'>View Role</a>
+                <a href="#">View Role</a>
               </td>
             </tr>
             <tr>
@@ -91,7 +91,7 @@ const Career = () => {
               </td>
               <td>Remote (US Timezones)</td>
               <td>
-                <a href='#'>View Role</a>
+                <a href="#">View Role</a>
               </td>
             </tr>
           </tbody>
