@@ -189,6 +189,7 @@
     grid-template-columns: 1fr 1fr; 
     width: 100%;
     justify-items: center;
+    gap: 10px;
 }
 
 .crypto {
