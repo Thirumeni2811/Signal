@@ -11,7 +11,7 @@ section{
 /* Hero section */
 
 .hero.hero-main {
-    max-height: 650px;
+    max-height: 630px;
     background-color: #9DBBF8;
     color: #1b1b1b;
 }
@@ -122,12 +122,12 @@ section{
 @media (min-width: 1024px) {
     .hero-main .mobile-img .img1 {
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 30px;
         width: 320px;
     }
 
     .hero-main .mobile-img .img2 {
-        margin-left: -29px;
+        margin-left: -20px;
         margin-top: -50px;
         position: absolute;
         top: 0;
