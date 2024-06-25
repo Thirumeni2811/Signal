@@ -163,9 +163,7 @@ section{
     
     .hero-main .mobile-img .img2{
         width: 80%;
-        margin: 0 auto;
-        margin-top: -590px;
-        margin-left: 320px;
+        margin: -650px auto 0 370px;
     }
     .hero-body{
         margin-left: 30px;
